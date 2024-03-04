@@ -5,7 +5,6 @@ public class looper {
         for (int i = 0; i < number.length; i++) {
             sum += number[i];
             // System.out.println(number[i]);
-            
         }
         System.out.println(sum);
         for (int i = 0; i < 10; i++) {
@@ -25,10 +24,20 @@ public class looper {
     int num[] = {1,2,3,4,5};
     for (int i = 0; i < num.length; i++) {
         if (i%2 == 1) {
-            System.out.println(i);
-            
+            System.out.println(i);   
         }
-        
     }
+    System.out.println("-- while --");
+    int a = 5;
+    int multi = 1;
+    // while (multi <= 10) {
+    //     System.out.printf("%d X %d = %d \n", a,multi,a * multi);
+    //     multi++;
+    // }
+    do {
+        System.out.printf("%d X %d = %d \n", a,multi,a * multi);
+        multi++;
+        
+    } while (multi <= 10);
     }
 }
