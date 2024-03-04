@@ -15,12 +15,13 @@ class Listy {
         System.out.println(numbers.toString());
         // numbers.clear();
         System.out.println(numbers.isEmpty());
-        while (true) {
-            System.out.println("Before:"+numbers.toString());
-            numbers.forEach(number ->{
-                numbers.set(numbers.indexOf(number),number * 2);
-            });
-            System.out.println("after :"+ numbers.toString());
-        }
+        System.out.println("Before:"+numbers.toString());
+        
+        numbers.forEach(number ->{
+            numbers.set(numbers.indexOf(number),number * 2);
+        });
+        System.out.println("after :"+ numbers.toString());
+       
     }
+   
 }
