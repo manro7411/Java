@@ -22,6 +22,7 @@ public class arrays {
         char key = 'o';
         int foundIndex = Arrays.binarySearch(vovels,startingIndex,endingIndex,key);
         System.out.println(foundIndex);
+        Arrays.fill(args, alphabets);
     }
     
 }
