@@ -1,0 +1,2 @@
+        // String format = String.format("country %s . %d , %s",name,country,ages);
+        // System.out.println(format);
