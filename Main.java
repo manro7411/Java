@@ -1,20 +1,25 @@
 public class Main {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
-        // Employee() is constructor 
-        // Employee e1 = new Employee();
-        // e1.setId("1");;
-        // e1.setName("Ratchanon Traitiprat");
-        // e1.setSalary(30000.0);
-        // e1.display();
-        // System.out.println(e1.getName());
-        // Employee e2 = new Employee();
-        // e2.setId("2");
-        // e2.setName("Passapol Phukhang");
-        // e2.setSalary(40000.0);
-        // e2.display();
-        // constructor is a special method to setting the beginning variable
         Employee e1 = new Employee("Ratchanon Traitiprat","1",30000.0);
         Employee e2 = new Employee();
         e1.display();
+        int result = Employee.minSalary;
+        System.out.println(result);
+        System.out.println(Company.name+" \nFounded : "+Company.founder);
+        Company.service();
+        Programmer p1 = new Programmer();
+        System.out.println("requirement skills : "+p1.skill);
+        p1.setName("Programmer");
+        p1.setSalary(40000.0);
+        p1.display();
+
+        Accounting ac = new Accounting();
+        ac.setName("Wuttipong Jaihan");
+        ac.setSalary(30000.0);
+        ac.display();
+
+   
+
     }
 }
