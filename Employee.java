@@ -1,7 +1,7 @@
 class Employee {
-    public String id;
-    public String name;
-    public Double salary;
+    private String id;
+    private String name;
+    private Double salary;
 
     public String getId() {
         return id;
@@ -22,7 +22,7 @@ class Employee {
         this.salary = salary;
     }
     public void display(){
-        System.out.println("ID : "+this.id);
+        // System.out.println("ID : "+this.id);
         System.out.println("NAME : "+this.name);
         System.out.println("SALARY : "+this.salary);
     }
@@ -34,8 +34,16 @@ class Employee {
         this.id = id;
         this.name = name;
         this.salary = salary;
+    }
+    public Employee(){
 
     }
+    public Employee(String name,String id){
+        this.name = name;
+        this.id = id;
+    }
+    //static attribute
+    // static int minSalary = 12000;
 
 
     
