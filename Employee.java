@@ -26,6 +26,17 @@ class Employee {
         System.out.println("NAME : "+this.name);
         System.out.println("SALARY : "+this.salary);
     }
+    
+    // default constructor
+    public Employee(String name,String id,Double salary){
+        System.out.println("create Object completed !");
+        System.out.println(name);
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+
+    }
+
 
     
     
