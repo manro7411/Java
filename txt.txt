@@ -13,3 +13,6 @@
         // e2.setSalary(40000.0);
         // e2.display();
         // constructor is a special method to setting the beginning variable
+
+
+        modified -> final is in class method and attribute;
