@@ -44,10 +44,8 @@ class Employee {
         this.salary = salary ;
         display();
     }
-    //static attribute
+    public void bonus(){
+        System.out.println("Show bonus employee");
+    }    //static attribute
     // static int minSalary = 12000;
-
-
-    
-    
 }
