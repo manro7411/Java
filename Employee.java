@@ -36,11 +36,13 @@ class Employee {
         this.salary = salary;
     }
     public Employee(){
+        System.out.println("I'm employee");
 
     }
-    public Employee(String name,String id){
+    public Employee(String name,Double salary){
         this.name = name;
-        this.id = id;
+        this.salary = salary ;
+        display();
     }
     //static attribute
     // static int minSalary = 12000;
